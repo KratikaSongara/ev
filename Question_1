@@ -1,0 +1,19 @@
+Strings are immutable to save the memory space.
+
+String:-
+a) Immuatable
+b) Slow as compared to StringBuilder
+c) Requires more memory
+
+String Builder:-
+a) Mutable
+b) Fast
+c) Requires less memory
+
+methods :-
+String str="1234566";
+1) .equals(); :- str.equals("1234") --> false
+2) .split(); :- str.split("") --> [1 2 3 4 5 6 6]
+3) .lastIndexOf(); :- str.lastIndexOf(6) --> 6
+4) .length(); :- str.length() --> 7
+5) .charAt(); :- str.charAt(2) --> 3
